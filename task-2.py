@@ -7,4 +7,4 @@ ave = []
 for _ in range(n):
     ave.append(uniform(-1, 1))
     print("%.4f" % ave[-1])
-print("Average of", n, "numbers: " "%.4f" %numpy.mean(ave))
+print("Average of %d random numbers: %.4f" % (n, numpy.mean(ave)))
